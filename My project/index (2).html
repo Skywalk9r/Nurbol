@@ -1,0 +1,231 @@
+    <!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Travel guide</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script>
+    <style>
+.mainmenubtn {
+    background-color: lightgrey;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:8px;
+    margin-top:14px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: lightgray;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+</style>
+ 
+</head>
+
+<body>
+  <form action="action_page.php">
+    <div class="container">
+        <br>
+        <br>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+       
+        <div class="dropdown">
+  <button class="mainmenubtn">Register</button>
+  <div class="dropdown-child"> 
+      
+      <label for="email"><b> Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+  
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+  
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      <hr> 
+      <button type="submit" class="registerbtn">Register</button>
+      
+      </div>
+</div>
+        
+      <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+    </div>
+  
+    <div class="container signin">
+      <p>Already have an account? <a href="#">Sign in</a>.</p>
+    </div>
+  </form>
+  <div class = "start" id="start">
+    <div class = "container">
+      <div class = "start_inner">
+        <div class = "start_text">
+          <h1 class="start_title">Travel Guide to Nur-Sultan</h1> 
+           
+        </div>
+        <div class = "start_pic">
+          <div class = "start_pic_inner">       
+          </div>      
+        </div>
+      </div>
+    </div>
+  </div>
+
+	<header class="header">
+		<div class="container">
+			<div class="header_inner">
+				<div class="header_logo">
+					<img class="logo" src="logo.jpg">
+          </div>
+          <nav class="nav" id="nav">
+            <a class="nav_link" href="#" data-scroll="#History">What to do</a>
+            <a class="nav_link" href="#" data-scroll="#Malls">Getting around</a>
+            <a class="nav_link" href="#" data-scroll="#museum">Top 5 reasons</a>
+            <a class="nav_link" href="#" data-scroll="#blog">Blog</a>
+          </nav>
+          
+        </div>
+      </div>
+    </header>
+    <div class = "intro" id="Intro">
+      <div class = "container">
+        <div class = "intro_inner">
+          <div class = "intro_text">
+            <h1 class="intro_title">Nur-Sultan</h1>
+            <h4 class="intro_subtitle"> Nur-Sultan is the capital city of Kazakhstan. The city lies on the banks of the Ishim River in the north-central part of Kazakhstan, within the Akmola Region, though administered as a city with special status separately from the rest of the region. The city's master-plan was designed by Japanese architect Kisho Kurokawa. As the seat of the government of Kazakhstan, Nur-Sultan is the site of the Parliament House, the Supreme Court, the Ak Orda Presidential Palace and numerous government departments and agencies. It is home to a range of futuristic buildings, including many skyscrapers. </h4>
+            
+          </div>
+          <div class = "intro_pic">
+            <div class = "intro_pic_inner">       
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class = "history" id="History">
+      <div class = "container">
+        <div class = "history_inner">
+          <div class = "history_text">
+            <h1 class="history_title">What to do in Nur-Sultan</h1>
+            <h4 class="history_subtitle">  1. Fascinating Kazakh Collections <br>
+              As you'd hope from Kazakhstan's national museum, there's plenty to discover and digest in this massive attraction, so divert a day from your schedule and dive in. The core of the museum tells the Kazakh story, from prehistoric times, through nomadic eras, Russian domination, and independence, and it's a great primer. But pride of place goes to more humble exhibits, like a crumb of bread carried by a survivor of the Soviet-era Great Famine. Less powerful, perhaps, is the homage to Nursultan Nazarbayev, the father of modern Kazakhstan, but the hero worship is still fascinating.<br>
+              <br>
+               2. Shopping, Rides, And Cosiness In An Incredible Setting <br>
+              Nur-Sultan isn't short of eye-catching architecture. The Kazakh state has gone all-out to put the capital on the map (literally, as it was hardly there 30 years ago). The centerpiece of this drive for glory has to be Khan Shatyr. Designed by big-name architect Norman Foster, this slanted dome is 150 meters tall and made from an advanced form of plastic, which keeps it warm, even in the depths of the Kazakh winter. Inside there's a grand shopping mall, a beach club, and rides, but the real appeal is the totally unique building itself.<br>
+              <br>
+               3. A Pyramid Of Understanding And Hope <br>
+              Elegantly simple in its conception, this pyramid made from steel and glass is a symbol of modern Kazakhstan's position between east and west, Islam, Buddhism, and Christianity. The aims may be lofty, but the architecture measures up, with gorgeous stained glass doves, a cavernous opera theater, and an artful use of light and shade to create intriguing interior atmospheres. Tours are recommended, and take just 30 minutes, while the nearby flower gardens are also a great place to unwind. <br>
+              <br>
+               4. Superb Views From Nur-Sultan's Icon <br>
+              Located on Nurzhol Boulevard in the very center of Nur-Sultan, Bayterek is unmissable, largely due to its massive size. The monument soars to a height of 97 meters, like an oversized vase, with a sphere at its tip. The whole thing is intended to be an allegory for Kazakhstan's founding story, where the sphere represents an egg laid by a mythical bird in a poplar tree. You'll learn the story when you visit the on-site museum, but more importantly, you'll get superb views from the observation deck. <br>
+              <br>
+               5. Central Asia's Most Beautiful Mosque <br>
+              Another of modern Nur-Sultan's unforgettable buildings, Hazrat Sultan only opened in 2012, but has the look and harmony of mosques dating back centuries. Among Central Asian places of worship, Hazrat Sultan is bested only by Turkmenistan's central mosque in terms of size, but may be more elegant, both inside and out. Prayers are an awesome sight, with 5,000 worshippers present at one time, but the 51 meter high dome is inspiring as well. Intended to be a bridge between a palace and a mosque, it achieves that, and more. </h4>
+          </div>
+          <div class = "history_pic">
+            <div class = "history_pic_inner">       
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="center_text" id="Malls">
+      <h1 class="center_title">
+           How to get around in Nur-Sultan
+      </h1>
+    </div>
+
+    <div class="container" >
+      <div class="advantage">
+        <div class="advantage_item">
+          <img class="advantage_img" src="bus.png">
+          <h4 class="advantage_title">Public Transportation</h4>
+          <div class="advantage_text">Buses run all over Nur-Sultan and are an excellent, affordable option. Basic tickets cost ₸90, and you'll need to pay when you get on.</div>
+        </div>
+        <div class="advantage_item">
+          <img class="advantage_img" src="taxi.png">
+          <h4 class="advantage_title">Taxi</h4>
+          <div class="advantage_text">Expect taxis to charge around ₸500-1,500 for most journeys in the city center (and try to arrange a price before you travel).</div>
+        </div>
+        <div class="advantage_item">
+          <img class="advantage_img" src="car.png
+          .">
+          <h4 class="advantage_title">Car</h4>
+          <div class="advantage_text">Having your own car makes shopping and sightseeing so much easier. Local rental companies include Hertz Caspian and Tipoa, and prices will be around ₸2,000 per day.</div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <div class="main" id="museum">
+      <div class="container">
+       <div class="main_inner">
+         <div class="main_photo">
+           <img class="main_pic" src="khan.jpg">
+         </div>
+         <div class="main_text">
+           <h1 class="main_title">Top  reasons to visit Nur-Sultan</h1>
+           <p class="main_subtitle">1 Outlandish Modern Architecture <br/>
+            Nur-Sultan's growth has been breathtaking; places like the domed Khan Shatyr and the Palace of Peace and Reconciliation are well worth seeing. </p>
+           <p class="main_subtitle"> 2. Exceptional Museums <br/>
+             Kazakhstan's capital is also a cultural nexus, with great attractions like the National Museum of Kazakhstan and the (slightly egocentric but fascinating) Museum of the First President of the Republic of Kazakhstan </p>
+           <p class="main_subtitle"> 3 Activities for Kids to Enjoy <br/>
+            With attractions like the Duman leisure center (which has an enormous aquarium) and spectacular city center light shows every night, youngsters will have plenty to do. </p>
+           <p class="main_subtitle"> 4  World-Class Shopping Options <br/>
+            Kazakhs have fully embraced the global shopping scene, and you'll find a galaxy of prestige brands at Nur-Sultan's malls like the Khan Shatyr and Mega Mall. </p>
+           <p class="main_subtitle"> 5  Irrepressible Nightlife <br/>
+            Nur-Sultan is bursting with energy, and nowhere is this more evident than the city's clubs, where highlights include the Chocolate Room and Fashion. </p>
+         
+          </div>
+       </div>
+      </div>
+    </div>
+
+    <div class="main2" id="blog">
+      <div class="container">
+       <div class="main2_inner">
+         <h1 class="main2_title">Blog</h1>
+          <div class="in">
+           <div class="main2_subtitle">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vUeVhb4q0V8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+           <div class="main2_subtitle">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-cxemP4oxIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+           </div>
+         </div>
+       </div>
+      </div>
+    </div>
+    
+   <div class = "footer_copy">
+     <div class = "footer_copy_text">©2022 Nurbol Oraz</div>
+   </div>
+   
+     <script src="script.js"></script>
+  </body>
+
+</html>
