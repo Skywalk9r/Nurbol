@@ -1,2 +1,2 @@
-# Nurbol
+# Nurbol and Oraz
 web technologies
