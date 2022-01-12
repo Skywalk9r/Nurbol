@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: whitesmoke;
+    background-color: rgb(255, 255, 255);
     * {
         box-sizing: border-box
     }
@@ -8,203 +8,12 @@ body {
     .container {
         padding: 16px;
     }
-    /* Full-width input fields */
-    input[type=text],
-    input[type=password] {
-        width: 100%;
-        padding: 15px;
-        margin: 5px 0 22px 0;
-        display: inline-block;
-        border: none;
-        background: #f1f1f1;
-    }
-    input[type=text]:focus,
-    input[type=password]:focus {
-        background-color: #ddd;
-        outline: none;
-    }
-    /* Overwrite default styles of hr */
-    hr {
-        border: 1px solid #f1f1f1;
-        margin-bottom: 25px;
-    }
-    /* Set a style for the submit/register button */
-    .registerbtn {
-        background-color: #4CAF50;
-        color: white;
-        padding: 16px 20px;
-        margin: 8px 0;
-        border: none;
-        cursor: pointer;
-        width: 100%;
-        opacity: 0.9;
-    }
-    .registerbtn:hover {
-        opacity: 1;
-    }
-    /* Add a blue text color to links */
-    a {
-        color: dodgerblue;
-    }
-    /* Set a grey background color and center the text of the "sign in" section */
-    .signin {
-        background-color: #f1f1f1;
-        text-align: center;
-    }
     background-size: 100%;
     margin: 0;
     font-family: 'Open Sans',
     sans-serif;
 }
 
-* {
-    box-sizing: border-box
-}
-
-
-/* Поля ввода полной ширины */
-
-input[type=text],
-input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-
-/* Добавить цвет фона, когда входы получают фокус */
-
-input[type=text]:focus,
-input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-
-
-/* Установите стиль для всех кнопок */
-
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-button:hover {
-    opacity: 1;
-}
-
-
-/* Дополнительные стили для кнопки "Отмена" */
-
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-
-
-/* Поплавок очистить и кнопки регистрации и добавить равную ширину */
-
-.cancelbtn,
-.signupbtn {
-    float: left;
-    width: 50%;
-}
-
-
-/* Добавить отступы к элементам контейнера */
-
-.container {
-    padding: 16px;
-}
-
-
-/* Модальный (фон) */
-
-.modal {
-    display: none;
-    /* Скрыто по умолчанию */
-    position: fixed;
-    /* Оставаться на месте */
-    z-index: 1;
-    /* Сидеть на вершине */
-    left: 0;
-    top: 0;
-    width: 100%;
-    /* Полная ширина */
-    height: 100%;
-    /* Полный высота */
-    overflow: auto;
-    /* Включите прокрутку, если это необходимо */
-    background-color: #474e5d;
-    padding-top: 50px;
-}
-
-
-/* Модальное Содержание/Бокс */
-
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto;
-    /* 5% сверху, 15% снизу и по центру */
-    border: 1px solid #888;
-    width: 80%;
-    /* Может быть больше или меньше, в зависимости от размера экрана */
-}
-
-
-/* Стиль горизонтальной линейки */
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-
-/* кнопка закрытия (x) */
-
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-
-.close:hover,
-.close:focus {
-    color: #f44336;
-    cursor: pointer;
-}
-
-
-/* Снимите поплавки */
-
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-/* Измените стили для кнопки отмены и кнопки регистрации на дополнительных маленьких экранах */
-
-@media screen and (max-width: 300px) {
-    .cancelbtn,
-    .signupbtn {
-        width: 100%;
-    }
-}
-
-*,
 *::after *::before {
     box-sizing: border-box;
 }
@@ -293,7 +102,7 @@ hr {
     display: flex;
     height: 600px;
     padding-top: 100px;
-    background: rgb(107, 107, 107) url(vl.jpg) no-repeat center;
+    background: rgb(255, 255, 255) url(vl.jpg) no-repeat center;
     background-size: cover;
     margin-bottom: 100px;
 }
@@ -349,7 +158,7 @@ hr {
     display: flex;
     height: 1200px;
     padding-top: 75px;
-    background-color: white;
+    background-color: whitesmoke;
     background-size: cover;
     margin-bottom: 100px;
 }
@@ -399,32 +208,6 @@ hr {
     background: url(intro3232.jpeg) no-repeat center;
     background-size: 100%;
     position: relative;
-}
-
-.btn {
-    color: white;
-    transition: background 0.1s linear;
-    padding: 15px 35px;
-    text-decoration: none;
-    border-radius: 25px;
-    background-color: #1E90FF;
-}
-
-.btn::after {
-    display: block;
-    color: #1E90FF;
-    background-color: white;
-    width: 100%;
-    position: absolute;
-}
-
-.btn:hover {
-    color: white;
-    background-color: rgb(18, 119, 219);
-}
-
-.btn:hover::after {
-    display: block;
 }
 
 .title {
