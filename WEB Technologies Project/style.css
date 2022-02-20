@@ -1,0 +1,372 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    * {
+        box-sizing: border-box
+    }
+    /* Add padding to containers */
+    .container {
+        padding: 16px;
+    }
+    background-size: 100%;
+    margin: 0;
+    font-family: 'Open Sans',
+    sans-serif;
+}
+
+*::after *::before {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 3;
+}
+
+.header_inner {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    top: 8px;
+    left: 20px;
+    bottom: 10px;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    height: 70px;
+    background: no-repeat;
+    position: relative;
+}
+
+.nav {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: rgb(139, 13, 13);
+    opacity: 0.6;
+    transition: color 0.1s linear;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    position: relative;
+}
+
+.nav_link::after {
+    display: block;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+    opacity: 1;
+}
+
+.nav_link:hover {
+    color: rgb(255, 0, 0);
+    opacity: 1;
+    font-weight: 500;
+}
+
+.nav_link:hover::after {
+    display: block;
+}
+
+.intro {
+    display: flex;
+    height: 600px;
+    padding-top: 100px;
+    background: rgb(255, 255, 255) url(vl.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.intro_inner {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100hv;
+}
+
+.intro_text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+}
+
+.intro_title {
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    font-size: 65px;
+}
+
+.intro_subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.intro_pic {
+    margin: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.intro_pic_inner {
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: url(Nur-Sultan.jpg) no-repeat center;
+    background-size: 100%;
+    position: relative;
+}
+
+.history {
+    display: flex;
+    height: 1200px;
+    padding-top: 75px;
+    background-color: whitesmoke;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+.history_inner {
+    width: 100%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 100hv;
+}
+
+.history_text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 1200px;
+}
+
+.history_title {
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    font-size: 65px;
+}
+
+.history_subtitle {
+    color: rgb(8, 8, 8);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.hisroty_pic {
+    margin: 0;
+    height: 400px;
+    width: 400px;
+}
+
+.history_pic_inner {
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background: url(intro3232.jpeg) no-repeat center;
+    background-size: 100%;
+    position: relative;
+}
+
+.title {
+    margin: 50px 0;
+}
+
+.center_text {
+    margin: 0 50px;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.center_title {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: -10px;
+}
+
+.center_subtitle {
+    color: black;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0 50px;
+}
+
+.advantage {
+    display: flex;
+    margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+.advantage_item {
+    width: 33.33333%;
+    text-align: center;
+    padding: 0 40px;
+    margin: 25px 0;
+}
+
+.advantage_img {
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+}
+
+.advantage_title {
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.advantage_text {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #6c7279;
+}
+
+.main {
+    display: flex;
+    height: 100hv;
+    padding-top: 100px;
+    background: url(vl.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.main_inner {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    padding-left: 15px;
+}
+
+.main_title {
+    color: white;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    font-size: 65px;
+}
+
+.main_subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.main_pic {
+    height: 300px;
+    width: 400px;
+    top: 50px;
+    background: no-repeat center;
+    padding-top: 30px;
+    background-size: 100%;
+    position: relative;
+}
+
+.main2 {
+    display: flex;
+    height: 600px;
+    padding-top: 45px;
+    background: url(vvv.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.main2_inner {
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.main2_text {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+}
+
+.main2_title {
+    color: white;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 20px;
+    font-size: 65px;
+    text-align: center;
+}
+
+.main2_subtitle {
+    text-align: center;
+}
+
+.in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main2_pic {
+    height: 320px;
+    width: 500px;
+    background: url(blog.jpg) no-repeat center;
+    background-size: 100%;
+    position: relative;
+}
+
+.footer_copy {
+    background-color: rgb(15, 96, 102);
+    padding: 25px 0;
+}
+
+.footer_copy_text {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
